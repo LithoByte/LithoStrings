@@ -1,0 +1,6 @@
+framework module Pods_LithoStrings_Tests {
+  umbrella header "Pods-LithoStrings_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

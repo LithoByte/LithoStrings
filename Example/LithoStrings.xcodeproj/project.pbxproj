@@ -13,8 +13,10 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		70CA60A44533DD7056F3F047 /* Pods_LithoStrings_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC04E3BDA5B49E35892B838F /* Pods_LithoStrings_Tests.framework */; };
+		D02B388827ADC1E900C339BB /* NSAttributedStringHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B388727ADC1E900C339BB /* NSAttributedStringHelperTests.swift */; };
+		D02B388A27ADC1FA00C339BB /* NSAttributesReturnFunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B388927ADC1FA00C339BB /* NSAttributesReturnFunctionsTests.swift */; };
+		D02B388C27ADC20F00C339BB /* NSAttributeStringAddsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B388B27ADC20F00C339BB /* NSAttributeStringAddsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +41,15 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* LithoStrings_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LithoStrings_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		67E7AD9547DC2B804BACE553 /* LithoStrings.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LithoStrings.podspec; path = ../LithoStrings.podspec; sourceTree = "<group>"; };
+		67E7AD9547DC2B804BACE553 /* LithoStrings.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LithoStrings.podspec; path = ../LithoStrings.podspec; sourceTree = "<group>"; };
 		8A60DFF7D67E8C47D77715FA /* Pods_LithoStrings_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LithoStrings_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A07E62CEE649A0700EF9451A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A07E62CEE649A0700EF9451A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D02B388727ADC1E900C339BB /* NSAttributedStringHelperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringHelperTests.swift; sourceTree = "<group>"; };
+		D02B388927ADC1FA00C339BB /* NSAttributesReturnFunctionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributesReturnFunctionsTests.swift; sourceTree = "<group>"; };
+		D02B388B27ADC20F00C339BB /* NSAttributeStringAddsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributeStringAddsTests.swift; sourceTree = "<group>"; };
 		E44BFA21EA181942E2C94D9E /* Pods-LithoStrings_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LithoStrings_Tests.release.xcconfig"; path = "Target Support Files/Pods-LithoStrings_Tests/Pods-LithoStrings_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E5CA81F0CB19E303810C931B /* Pods-LithoStrings_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LithoStrings_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LithoStrings_Tests/Pods-LithoStrings_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E6D07E346EBDCA6EE447826A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E6D07E346EBDCA6EE447826A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FC04E3BDA5B49E35892B838F /* Pods_LithoStrings_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LithoStrings_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -124,7 +128,9 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				D02B388B27ADC20F00C339BB /* NSAttributeStringAddsTests.swift */,
+				D02B388927ADC1FA00C339BB /* NSAttributesReturnFunctionsTests.swift */,
+				D02B388727ADC1E900C339BB /* NSAttributedStringHelperTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -156,7 +162,6 @@
 				E5CA81F0CB19E303810C931B /* Pods-LithoStrings_Tests.debug.xcconfig */,
 				E44BFA21EA181942E2C94D9E /* Pods-LithoStrings_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -217,7 +222,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1320;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -227,6 +232,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -340,7 +346,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				D02B388827ADC1E900C339BB /* NSAttributedStringHelperTests.swift in Sources */,
+				D02B388A27ADC1FA00C339BB /* NSAttributesReturnFunctionsTests.swift in Sources */,
+				D02B388C27ADC20F00C339BB /* NSAttributeStringAddsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -507,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E5CA81F0CB19E303810C931B /* Pods-LithoStrings_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -519,6 +528,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LithoStrings_Example.app/LithoStrings_Example";
@@ -529,6 +539,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E44BFA21EA181942E2C94D9E /* Pods-LithoStrings_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

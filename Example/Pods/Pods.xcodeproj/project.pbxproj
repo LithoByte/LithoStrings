@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F30DB9916CDA26ECFCA09A8DBA00176 /* Pods-LithoStrings_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6598DC60ED278265195F0044D0C74458 /* Pods-LithoStrings_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FE458318C1F129AB276142083749670 /* LithoStrings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B31AFB5C3F592026025A8D60BC782D7 /* LithoStrings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		129BBF40B736204410B1FBEF02A46137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		20BC99ED6B9378E22DDB37A1899086DA /* Pods-LithoStrings_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69106A5C0495DC0C355E3248B00154F0 /* Pods-LithoStrings_Example-dummy.m */; };
+		57DB43B0312E163DD38AA4038FFAE107 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7AE4F8A33F0E06F7E94589FCA7D783DC /* LithoStrings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EC30DB74D188F7D87CD8FE9E7B7FBC /* LithoStrings-dummy.m */; };
+		80016416DC7A9DCD53C8BB33E679E88C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8A608BB11329BD3EDD464D9C316FEFDA /* Pods-LithoStrings_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2849B9A90479193D4C916B820604CCC /* Pods-LithoStrings_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C980088ADC08D026977C8A6464B3C7D2 /* Pods-LithoStrings_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D65918679E2F0DA687CF1A859B7DDA /* Pods-LithoStrings_Tests-dummy.m */; };
+		D02B388027ADC14F00C339BB /* NSAttributedStringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B387F27ADC14F00C339BB /* NSAttributedStringHelper.swift */; };
+		D02B388227ADC16600C339BB /* NSAttributesAdds.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B388127ADC16600C339BB /* NSAttributesAdds.swift */; };
+		D02B388427ADC17000C339BB /* NSAttributesReturnFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B388327ADC17000C339BB /* NSAttributesReturnFunctions.swift */; };
+		D02B388627ADC17A00C339BB /* NSMutableAttributeStringAdds.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B388527ADC17A00C339BB /* NSMutableAttributeStringAdds.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B75B8C7C083A39E0FBBC082FC1171EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96C9767481B501929CE338744EA562D1;
+			remoteInfo = "Pods-LithoStrings_Example";
+		};
+		F6A70DCC6268A4DC56D451176ED65D25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F499AE76DA0D506EDDA04D7F7BCCC725;
+			remoteInfo = LithoStrings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE068B68367BDD0610653246D064524 /* Pods-LithoStrings_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoStrings_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		15BDDF7B08A0289BD97E803DC2A34ED0 /* Pods-LithoStrings_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LithoStrings_Tests.modulemap"; sourceTree = "<group>"; };
+		1EBE22D7AF0AAB40249956F94DE9DA09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		343CB578DBD9F9D50DE187E579766C89 /* Pods-LithoStrings_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoStrings_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4DAD5A73DCD84CC8E2E3C04ED38BC485 /* Pods-LithoStrings_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LithoStrings_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50A2F96BC922270A9E9015F0C0FF2818 /* Pods-LithoStrings_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LithoStrings_Tests"; path = Pods_LithoStrings_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51929E35476845996DEBB533E1352549 /* Pods-LithoStrings_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoStrings_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5585701703A76CFA94A85DE38D29B967 /* LithoStrings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoStrings.release.xcconfig; sourceTree = "<group>"; };
+		56988D85F723D06518444FC62303A42A /* LithoStrings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LithoStrings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5743E01E6FCB602F6099B26C9E3F368A /* Pods-LithoStrings_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoStrings_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6598DC60ED278265195F0044D0C74458 /* Pods-LithoStrings_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LithoStrings_Example-umbrella.h"; sourceTree = "<group>"; };
+		69106A5C0495DC0C355E3248B00154F0 /* Pods-LithoStrings_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoStrings_Example-dummy.m"; sourceTree = "<group>"; };
+		6D07C3D2E71DD349974DCC4ED8A2FB98 /* Pods-LithoStrings_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoStrings_Example-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		779B853C9D627856C6BA37E51B8D6E46 /* LithoStrings-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LithoStrings-Info.plist"; sourceTree = "<group>"; };
+		8B31AFB5C3F592026025A8D60BC782D7 /* LithoStrings-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoStrings-umbrella.h"; sourceTree = "<group>"; };
+		8FB1580ED32B47B02FEAB42BEBB6183D /* Pods-LithoStrings_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LithoStrings_Example-frameworks.sh"; sourceTree = "<group>"; };
+		90DAB64659E502778BA5AA4EDE5D023F /* Pods-LithoStrings_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoStrings_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		97A3A4BB1AA8354E556A0EF211BB5545 /* Pods-LithoStrings_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoStrings_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7B0119D92B2B95BF99032FAE3E5673C /* Pods-LithoStrings_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoStrings_Tests-Info.plist"; sourceTree = "<group>"; };
+		B2AAE143C768B06CEA1759A6A58A65E5 /* Pods-LithoStrings_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LithoStrings_Example"; path = Pods_LithoStrings_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97FDF098B4B61AF3B23054354A9F5DA /* LithoStrings-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoStrings-prefix.pch"; sourceTree = "<group>"; };
+		C2849B9A90479193D4C916B820604CCC /* Pods-LithoStrings_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LithoStrings_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C402A6E306CE58AB6A9C882A9BAE83CF /* LithoStrings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoStrings.debug.xcconfig; sourceTree = "<group>"; };
+		CAAC97B57D0439DDF18290248ADBCF2A /* LithoStrings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LithoStrings.modulemap; sourceTree = "<group>"; };
+		CDADDFDE75FEBC1AA3ECEFBA560998A5 /* Pods-LithoStrings_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LithoStrings_Example.modulemap"; sourceTree = "<group>"; };
+		D02B387F27ADC14F00C339BB /* NSAttributedStringHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringHelper.swift; sourceTree = "<group>"; };
+		D02B388127ADC16600C339BB /* NSAttributesAdds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributesAdds.swift; sourceTree = "<group>"; };
+		D02B388327ADC17000C339BB /* NSAttributesReturnFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributesReturnFunctions.swift; sourceTree = "<group>"; };
+		D02B388527ADC17A00C339BB /* NSMutableAttributeStringAdds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMutableAttributeStringAdds.swift; sourceTree = "<group>"; };
+		D7EC30DB74D188F7D87CD8FE9E7B7FBC /* LithoStrings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LithoStrings-dummy.m"; sourceTree = "<group>"; };
+		E9D65918679E2F0DA687CF1A859B7DDA /* Pods-LithoStrings_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoStrings_Tests-dummy.m"; sourceTree = "<group>"; };
+		F6E9C0D2872B87CF19077C514B6F9796 /* LithoStrings.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LithoStrings.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F718905CBF86B1B319B281E0AA2E50DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FB8B2269C366E2C4D809BF11C58B0142 /* Pods-LithoStrings_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LithoStrings_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8274E98F99012D34880E9E7E4617EE16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80016416DC7A9DCD53C8BB33E679E88C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD22AFACADF1AE3FF7AE7481387347B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129BBF40B736204410B1FBEF02A46137 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EA74796BCD6B7D25A2B3088DB7FAAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DB43B0312E163DD38AA4038FFAE107 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		232392FD1292CFBC0DC94C71A93C6D54 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A1195290465E0B2397F783BEAE96AA3 /* LithoStrings */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4669BB7A238E6FC85A01FCDDA7B0DB60 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2A27199B8E0E9080B9D63E68298101E /* Pods-LithoStrings_Example */,
+				832E9CF562429A380A0B93A9696D930E /* Pods-LithoStrings_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4A57E90ECB57D0FF2A77667D8C02DDA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56988D85F723D06518444FC62303A42A /* LithoStrings.framework */,
+				B2AAE143C768B06CEA1759A6A58A65E5 /* Pods-LithoStrings_Example */,
+				50A2F96BC922270A9E9015F0C0FF2818 /* Pods-LithoStrings_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A1195290465E0B2397F783BEAE96AA3 /* LithoStrings */ = {
+			isa = PBXGroup;
+			children = (
+				D02B388527ADC17A00C339BB /* NSMutableAttributeStringAdds.swift */,
+				D02B388327ADC17000C339BB /* NSAttributesReturnFunctions.swift */,
+				D02B388127ADC16600C339BB /* NSAttributesAdds.swift */,
+				D02B387F27ADC14F00C339BB /* NSAttributedStringHelper.swift */,
+				9E1951FB09F8062DA614014B565660DB /* Pod */,
+				E7FB695F24A37DABEDAFDF268708A82C /* Support Files */,
+			);
+			name = LithoStrings;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		832E9CF562429A380A0B93A9696D930E /* Pods-LithoStrings_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				15BDDF7B08A0289BD97E803DC2A34ED0 /* Pods-LithoStrings_Tests.modulemap */,
+				4DAD5A73DCD84CC8E2E3C04ED38BC485 /* Pods-LithoStrings_Tests-acknowledgements.markdown */,
+				0BE068B68367BDD0610653246D064524 /* Pods-LithoStrings_Tests-acknowledgements.plist */,
+				E9D65918679E2F0DA687CF1A859B7DDA /* Pods-LithoStrings_Tests-dummy.m */,
+				A7B0119D92B2B95BF99032FAE3E5673C /* Pods-LithoStrings_Tests-Info.plist */,
+				C2849B9A90479193D4C916B820604CCC /* Pods-LithoStrings_Tests-umbrella.h */,
+				5743E01E6FCB602F6099B26C9E3F368A /* Pods-LithoStrings_Tests.debug.xcconfig */,
+				90DAB64659E502778BA5AA4EDE5D023F /* Pods-LithoStrings_Tests.release.xcconfig */,
+			);
+			name = "Pods-LithoStrings_Tests";
+			path = "Target Support Files/Pods-LithoStrings_Tests";
+			sourceTree = "<group>";
+		};
+		9E1951FB09F8062DA614014B565660DB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE22D7AF0AAB40249956F94DE9DA09 /* LICENSE */,
+				F6E9C0D2872B87CF19077C514B6F9796 /* LithoStrings.podspec */,
+				F718905CBF86B1B319B281E0AA2E50DD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B2A27199B8E0E9080B9D63E68298101E /* Pods-LithoStrings_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CDADDFDE75FEBC1AA3ECEFBA560998A5 /* Pods-LithoStrings_Example.modulemap */,
+				FB8B2269C366E2C4D809BF11C58B0142 /* Pods-LithoStrings_Example-acknowledgements.markdown */,
+				97A3A4BB1AA8354E556A0EF211BB5545 /* Pods-LithoStrings_Example-acknowledgements.plist */,
+				69106A5C0495DC0C355E3248B00154F0 /* Pods-LithoStrings_Example-dummy.m */,
+				8FB1580ED32B47B02FEAB42BEBB6183D /* Pods-LithoStrings_Example-frameworks.sh */,
+				6D07C3D2E71DD349974DCC4ED8A2FB98 /* Pods-LithoStrings_Example-Info.plist */,
+				6598DC60ED278265195F0044D0C74458 /* Pods-LithoStrings_Example-umbrella.h */,
+				343CB578DBD9F9D50DE187E579766C89 /* Pods-LithoStrings_Example.debug.xcconfig */,
+				51929E35476845996DEBB533E1352549 /* Pods-LithoStrings_Example.release.xcconfig */,
+			);
+			name = "Pods-LithoStrings_Example";
+			path = "Target Support Files/Pods-LithoStrings_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				232392FD1292CFBC0DC94C71A93C6D54 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4A57E90ECB57D0FF2A77667D8C02DDA3 /* Products */,
+				4669BB7A238E6FC85A01FCDDA7B0DB60 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7FB695F24A37DABEDAFDF268708A82C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAAC97B57D0439DDF18290248ADBCF2A /* LithoStrings.modulemap */,
+				D7EC30DB74D188F7D87CD8FE9E7B7FBC /* LithoStrings-dummy.m */,
+				779B853C9D627856C6BA37E51B8D6E46 /* LithoStrings-Info.plist */,
+				B97FDF098B4B61AF3B23054354A9F5DA /* LithoStrings-prefix.pch */,
+				8B31AFB5C3F592026025A8D60BC782D7 /* LithoStrings-umbrella.h */,
+				C402A6E306CE58AB6A9C882A9BAE83CF /* LithoStrings.debug.xcconfig */,
+				5585701703A76CFA94A85DE38D29B967 /* LithoStrings.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LithoStrings";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22D1B0B2169D522C2AD4F9C17F9AEB7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE458318C1F129AB276142083749670 /* LithoStrings-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CF24FD5B7FC398939CF13C5BB60D6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F30DB9916CDA26ECFCA09A8DBA00176 /* Pods-LithoStrings_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43255E712766BBC61071704EBBD3274 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A608BB11329BD3EDD464D9C316FEFDA /* Pods-LithoStrings_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		96C9767481B501929CE338744EA562D1 /* Pods-LithoStrings_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68AAEA793449FBB58F740D1685549A2 /* Build configuration list for PBXNativeTarget "Pods-LithoStrings_Example" */;
+			buildPhases = (
+				97CF24FD5B7FC398939CF13C5BB60D6D /* Headers */,
+				CB670C04136D0ACED90C275935EF8921 /* Sources */,
+				F1EA74796BCD6B7D25A2B3088DB7FAAD /* Frameworks */,
+				9B3387F9B1C99991C7110A035DEBD462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD84F6D711E659589247DD53CB294DAB /* PBXTargetDependency */,
+			);
+			name = "Pods-LithoStrings_Example";
+			productName = Pods_LithoStrings_Example;
+			productReference = B2AAE143C768B06CEA1759A6A58A65E5 /* Pods-LithoStrings_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F499AE76DA0D506EDDA04D7F7BCCC725 /* LithoStrings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158F22EADEFFD3377F02B67B7BF579BB /* Build configuration list for PBXNativeTarget "LithoStrings" */;
+			buildPhases = (
+				22D1B0B2169D522C2AD4F9C17F9AEB7E /* Headers */,
+				2E97C587CE9D3631C49E7C4341EA2F8F /* Sources */,
+				8274E98F99012D34880E9E7E4617EE16 /* Frameworks */,
+				80EE0ECB7F350C7B0E9F8FAE46C8DA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LithoStrings;
+			productName = LithoStrings;
+			productReference = 56988D85F723D06518444FC62303A42A /* LithoStrings.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F68EB5C2ADC2A751E08C3729393C5EAF /* Pods-LithoStrings_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCCBB2D60B37D0B8C039C0BF0B8D447 /* Build configuration list for PBXNativeTarget "Pods-LithoStrings_Tests" */;
+			buildPhases = (
+				F43255E712766BBC61071704EBBD3274 /* Headers */,
+				36569620307470CC638D6EFF7FA0BD54 /* Sources */,
+				8AD22AFACADF1AE3FF7AE7481387347B /* Frameworks */,
+				61DFF34773932E9B72C518B3AA0FD00E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EC915A7E7DEA760DC04A768FBD4EAA8 /* PBXTargetDependency */,
+			);
+			name = "Pods-LithoStrings_Tests";
+			productName = Pods_LithoStrings_Tests;
+			productReference = 50A2F96BC922270A9E9015F0C0FF2818 /* Pods-LithoStrings_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F499AE76DA0D506EDDA04D7F7BCCC725 = {
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4A57E90ECB57D0FF2A77667D8C02DDA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F499AE76DA0D506EDDA04D7F7BCCC725 /* LithoStrings */,
+				96C9767481B501929CE338744EA562D1 /* Pods-LithoStrings_Example */,
+				F68EB5C2ADC2A751E08C3729393C5EAF /* Pods-LithoStrings_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61DFF34773932E9B72C518B3AA0FD00E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EE0ECB7F350C7B0E9F8FAE46C8DA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3387F9B1C99991C7110A035DEBD462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E97C587CE9D3631C49E7C4341EA2F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02B388227ADC16600C339BB /* NSAttributesAdds.swift in Sources */,
+				7AE4F8A33F0E06F7E94589FCA7D783DC /* LithoStrings-dummy.m in Sources */,
+				D02B388027ADC14F00C339BB /* NSAttributedStringHelper.swift in Sources */,
+				D02B388627ADC17A00C339BB /* NSMutableAttributeStringAdds.swift in Sources */,
+				D02B388427ADC17000C339BB /* NSAttributesReturnFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36569620307470CC638D6EFF7FA0BD54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980088ADC08D026977C8A6464B3C7D2 /* Pods-LithoStrings_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB670C04136D0ACED90C275935EF8921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BC99ED6B9378E22DDB37A1899086DA /* Pods-LithoStrings_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EC915A7E7DEA760DC04A768FBD4EAA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LithoStrings_Example";
+			target = 96C9767481B501929CE338744EA562D1 /* Pods-LithoStrings_Example */;
+			targetProxy = 7B75B8C7C083A39E0FBBC082FC1171EB /* PBXContainerItemProxy */;
+		};
+		DD84F6D711E659589247DD53CB294DAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LithoStrings;
+			target = F499AE76DA0D506EDDA04D7F7BCCC725 /* LithoStrings */;
+			targetProxy = F6A70DCC6268A4DC56D451176ED65D25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0622C8B1B30D6FA32F9793AFC55412B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C402A6E306CE58AB6A9C882A9BAE83CF /* LithoStrings.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LithoStrings/LithoStrings-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LithoStrings/LithoStrings-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LithoStrings/LithoStrings.modulemap";
+				PRODUCT_MODULE_NAME = LithoStrings;
+				PRODUCT_NAME = LithoStrings;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		26DA646124382C701FA024DF15F1113E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5585701703A76CFA94A85DE38D29B967 /* LithoStrings.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LithoStrings/LithoStrings-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LithoStrings/LithoStrings-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LithoStrings/LithoStrings.modulemap";
+				PRODUCT_MODULE_NAME = LithoStrings;
+				PRODUCT_NAME = LithoStrings;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42CFCC55E493AB01230FD89C6316A3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 343CB578DBD9F9D50DE187E579766C89 /* Pods-LithoStrings_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LithoStrings_Example/Pods-LithoStrings_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LithoStrings_Example/Pods-LithoStrings_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DACD1E0383A95CE3EB3DDBC6CC9062E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DAB64659E502778BA5AA4EDE5D023F /* Pods-LithoStrings_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LithoStrings_Tests/Pods-LithoStrings_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LithoStrings_Tests/Pods-LithoStrings_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A093856FB2EB5C9B9274713C5153918C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5743E01E6FCB602F6099B26C9E3F368A /* Pods-LithoStrings_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LithoStrings_Tests/Pods-LithoStrings_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LithoStrings_Tests/Pods-LithoStrings_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FA38AC6436E6A50CC800789091C9CB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51929E35476845996DEBB533E1352549 /* Pods-LithoStrings_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LithoStrings_Example/Pods-LithoStrings_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LithoStrings_Example/Pods-LithoStrings_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		158F22EADEFFD3377F02B67B7BF579BB /* Build configuration list for PBXNativeTarget "LithoStrings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0622C8B1B30D6FA32F9793AFC55412B5 /* Debug */,
+				26DA646124382C701FA024DF15F1113E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCCBB2D60B37D0B8C039C0BF0B8D447 /* Build configuration list for PBXNativeTarget "Pods-LithoStrings_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A093856FB2EB5C9B9274713C5153918C /* Debug */,
+				9DACD1E0383A95CE3EB3DDBC6CC9062E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68AAEA793449FBB58F740D1685549A2 /* Build configuration list for PBXNativeTarget "Pods-LithoStrings_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CFCC55E493AB01230FD89C6316A3BB /* Debug */,
+				FA38AC6436E6A50CC800789091C9CB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
