@@ -73,7 +73,7 @@
 		D02B388527ADC17A00C339BB /* NSMutableAttributeStringAdds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMutableAttributeStringAdds.swift; sourceTree = "<group>"; };
 		D7EC30DB74D188F7D87CD8FE9E7B7FBC /* LithoStrings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LithoStrings-dummy.m"; sourceTree = "<group>"; };
 		E9D65918679E2F0DA687CF1A859B7DDA /* Pods-LithoStrings_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoStrings_Tests-dummy.m"; sourceTree = "<group>"; };
-		F6E9C0D2872B87CF19077C514B6F9796 /* LithoStrings.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LithoStrings.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F6E9C0D2872B87CF19077C514B6F9796 /* LithoStrings.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LithoStrings.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		F718905CBF86B1B319B281E0AA2E50DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FB8B2269C366E2C4D809BF11C58B0142 /* Pods-LithoStrings_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LithoStrings_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */

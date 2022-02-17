@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "lithostrings"
+  spec.name         = "LithoStrings"
   spec.version      = "0.0.1"
   spec.summary      = "A Swift Library for working with Attributed Strings"
 
@@ -67,8 +67,8 @@ This library helps you return values from Attributed strings. It also helps you 
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
-    spec.ios.deployment_target = "15.3.1"
-    Spec.swift_version = "5.5"
+    spec.ios.deployment_target = "15.0"
+    spec.swift_version = "5.5"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -83,7 +83,7 @@ This library helps you return values from Attributed strings. It also helps you 
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://github.com/cjc8/lithostrings.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/cjc8/lithostrings.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
