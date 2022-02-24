@@ -8,67 +8,67 @@
 import Foundation
 import UIKit
 
-    public func returnForegroundColor(color: UIColor) -> [NSAttributedString.Key: Any] {
+    public func foregroundColor(color: UIColor) -> [NSAttributedString.Key: Any] {
         return [.foregroundColor: color]
     }
-    public func returnAttachment(attachment: NSTextAttachment) -> [NSAttributedString.Key: Any] {
+    public func attachment(attachment: NSTextAttachment) -> [NSAttributedString.Key: Any] {
         return [.attachment: attachment]
     }
-    public func returnBackgroundColor(color: UIColor) -> [NSAttributedString.Key: Any] {
+    public func backgroundColor(color: UIColor) -> [NSAttributedString.Key: Any] {
         return [.backgroundColor: color]
     }
-    public func returnBaselineOffset(offset: NSNumber) -> [NSAttributedString.Key: Any] {
+    public func baselineOffset(offset: NSNumber) -> [NSAttributedString.Key: Any] {
         return [.baselineOffset: offset]
     }
-    public func returnExpansion(expansion: NSNumber) -> [NSAttributedString.Key: Any] {
+    public func expansion(expansion: NSNumber) -> [NSAttributedString.Key: Any] {
         return [.expansion: expansion]
     }
-    public func returnFont(font: UIFont) -> [NSAttributedString.Key: Any] {
+    public func font(font: UIFont) -> [NSAttributedString.Key: Any] {
         return [.font: font]
     }
-    public func returnKern(kern: NSNumber) -> [NSAttributedString.Key: Any] {
+    public func kern(kern: NSNumber) -> [NSAttributedString.Key: Any] {
         return [.kern: kern]
     }
-    public func returnligature(ligature: NSNumber) -> [NSAttributedString.Key: Any] {
+    public func ligature(ligature: NSNumber) -> [NSAttributedString.Key: Any] {
         return [.ligature: ligature]
     }
-    public func returnLink(link: NSURL) -> [NSAttributedString.Key: Any] {
+    public func link(link: NSURL) -> [NSAttributedString.Key: Any] {
         return [.link: link]
     }
-    public func returnObliqueness(obliqueness: NSNumber) -> [NSAttributedString.Key: Any] {
+    public func obliqueness(obliqueness: NSNumber) -> [NSAttributedString.Key: Any] {
         return [.obliqueness: obliqueness]
     }
-    public func returnParagraphStyle(style: NSParagraphStyle) -> [NSAttributedString.Key: Any] {
+    public func paragraphStyle(style: NSParagraphStyle) -> [NSAttributedString.Key: Any] {
         return [.paragraphStyle: style]
     }
-    public func returnShadow(shadow: NSShadow) -> [NSAttributedString.Key: Any] {
+    public func shadow(shadow: NSShadow) -> [NSAttributedString.Key: Any] {
         return [.shadow: shadow]
     }
-    public func returnStrikethroughColor(color: UIColor) -> [NSAttributedString.Key: Any] {
+    public func strikethroughColor(color: UIColor) -> [NSAttributedString.Key: Any] {
         return [.strikethroughColor: color]
     }
-    public func returnStrikethroughStyle(style: NSNumber) -> [NSAttributedString.Key: Any] {
+    public func strikethroughStyle(style: NSNumber) -> [NSAttributedString.Key: Any] {
         return [.strikethroughStyle: style]
     }
-    public func returnStrokeColor(color: UIColor) -> [NSAttributedString.Key: Any] {
+    public func strokeColor(color: UIColor) -> [NSAttributedString.Key: Any] {
         return [.strokeColor: color]
     }
-    public func returnStrokeWidth(width: NSNumber) -> [NSAttributedString.Key: Any] {
+    public func strokeWidth(width: NSNumber) -> [NSAttributedString.Key: Any] {
         return [.strokeWidth: width]
     }
-    public func returnTextEffect(effect: NSString) -> [NSAttributedString.Key: Any] {
+    public func textEffect(effect: NSString) -> [NSAttributedString.Key: Any] {
         return [.textEffect: effect]
     }
-    public func returnUnderlineColor(color: UIColor) -> [NSAttributedString.Key: Any] {
+    public func underlineColor(color: UIColor) -> [NSAttributedString.Key: Any] {
         return [.underlineColor: color]
     }
-    public func returnUnderlineStyle(style: NSNumber) -> [NSAttributedString.Key: Any] {
+    public func underlineStyle(style: NSNumber) -> [NSAttributedString.Key: Any] {
         return [.underlineStyle: style]
     }
-    public func returnVerticalGlyphForm(form: NSNumber) -> [NSAttributedString.Key: Any] {
+    public func verticalGlyphForm(form: NSNumber) -> [NSAttributedString.Key: Any] {
         return [.verticalGlyphForm: form]
     }
-    public func returnWritingDirection(direction: NSArray) -> [NSAttributedString.Key: Any] {
+    public func writingDirection(direction: NSArray) -> [NSAttributedString.Key: Any] {
         return [.writingDirection: direction]
     }
 
