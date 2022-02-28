@@ -13,14 +13,14 @@ class NSAttributedStringHelperTests: XCTestCase {
     
     func testReturnCharacterContents() {
         let string: NSAttributedString = NSAttributedString(string: ("Test the function"))
-        let function = returnCharacterContents(attributedString: string)
+        let function = characterContents(attributedString: string)
         XCTAssertEqual(function, "Test the function")
     }
 
     func testReturnStringLength() {
         let string: NSAttributedString = NSAttributedString(string: ("Test the function"))
         let length = string.length
-        let function = returnStringLength(attributedStringLength: string)
+        let function = stringLength(attributedStringLength: string)
         XCTAssertEqual(function, length)
     }
 

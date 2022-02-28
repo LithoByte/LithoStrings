@@ -65,10 +65,10 @@ This library helps you return values from Attributed strings. It also helps you 
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  # spec.platform     = :ios, "5.3"
 
-    spec.ios.deployment_target = "15.0"
-    spec.swift_version = "5.5"
+    spec.ios.deployment_target = "13.0"
+    spec.swift_version = "5.3"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
