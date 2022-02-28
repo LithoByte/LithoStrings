@@ -1,5 +1,5 @@
 PODS:
-  - LithoStrings (0.1.0)
+  - LithoStrings (0.0.1)
 
 DEPENDENCIES:
   - LithoStrings (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LithoStrings: 64f9b480a26a2835a07aca3e6bdbb3e7ae6df1c4
+  LithoStrings: 901559949d6b29e4775972c7f436b3aacb5fb6fa
 
 PODFILE CHECKSUM: 2b095ee802a244fa732b9c0fe19dcaefec6cdfc6
 
